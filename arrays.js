@@ -20,3 +20,6 @@ destructivelyRemoveElementFromBeginningOfArray(a){
   a.shift()
   return a
 }
+removeElementFromBeginningOfArray(a){
+  return a.slice(1,1)
+}
